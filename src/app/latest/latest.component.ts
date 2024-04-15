@@ -15,5 +15,4 @@ export class LatestComponent {
   ngOnInit(): void {
     this.products = this.productService.getProduct();
   }
-  title = 'hai';
 }
