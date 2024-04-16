@@ -9,8 +9,10 @@
         <h3 class="text-bold">{{ product.name }}</h3>
         <span>$ {{ product.price }}</span>
       </div>
-      <img [src]="product.image" alt="{{ product.name }}" />
-      <button class="button-pro">Buy Now</button>
+      <img [src]="product.thumb" alt="{{ product.name }}" />
+      <button class="button-pro" (click)="gotoProduct(product.id)">
+        Buy Now
+      </button>
     </div>
   </div>
 </div>

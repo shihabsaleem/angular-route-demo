@@ -9,6 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { LatestComponent } from './latest/latest.component';
 import { ProductComponent } from './product/product.component';
+import { ProductDescComponent } from './product-desc/product-desc.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { ProductComponent } from './product/product.component';
     FooterComponent,
     LatestComponent,
     ProductComponent,
+    ProductDescComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule],
   providers: [],

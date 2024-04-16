@@ -1,0 +1,28 @@
+img {
+  max-width: 100%;
+  padding: 1rem;
+}
+.desc {
+  .desc-name {
+    font-size: 3rem;
+    font-weight: bolder;
+    color: black;
+  }
+  .desc-data {
+    color: #797982;
+    font-size: medium;
+    padding: 1rem 0;
+  }
+  .desc-price{
+    font-size: 2rem;
+    color: black;
+    font-weight: bolder;
+  }
+  .desc-btn{
+    padding: 1rem 0;
+  }
+  button{
+    
+    font-size: 0.75rem;
+  }
+}
